@@ -1,3 +1,11 @@
+/*/  
+           ALGORITHM
+step 1 : start 
+step 2 : take inputs a,b,c,d,x1,x2   {here d = square root of discriminant}
+step 3 : x1 = (-b+d)/(2*a)
+step 4 : x2 = (-b-d)/(2*a)
+*/
+
 #include<stdio.h>
 #include<math.h>
 int main (){
@@ -13,3 +21,4 @@ int main (){
     printf("Roots of this equation are %lf & %lf ",x1,x2);
     return 0;
 }
+
