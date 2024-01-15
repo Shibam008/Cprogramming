@@ -5,7 +5,7 @@ int fibonacci(int n){
 }
 int main(){
     int n;
-    printf("Enter  : ");
+    printf("Which term of Fibonacci number do you want ? :- ");
     scanf("%d", &n);
     printf("%d ",fibonacci(n));
    
