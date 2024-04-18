@@ -11,7 +11,7 @@ int main (){
         num = num / 10;    // for skipping last digit.
     }
 
-    if(original == reversed){
+    if(original == reversed ){
         printf("%d is a palindrom number",original);
     }
     else{
