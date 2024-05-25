@@ -14,18 +14,20 @@ int main() {
 
     int i=0;
     while(i<(end-start+1)) {
-        if(input[i+start] == ' '){
+        if(input[i+start] == ' '){ // cheking if there is any white-space at the end
             trimmed[i] = '-';
         }else {
-            trimmed[i] = input[i+start];
+            trimmed[i] = input[i+start]; // storing actual string without white-spaces
         }
         i++;
     }
     trimmed[i] = '\0';
 
     printf("Final trimmed string is : %s",trimmed);
+    return 0;
 }
+//(end-start+1) = length of actual word/sentence without white space.
 
 // as fgets insert '\n' automatically we have to handle that case.  (line 13)
 
-// after trimming we have to set out null char at the end. (line 24)
+// after trimming we have to set our null char at the end. (line 24)
